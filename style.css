@@ -5,12 +5,14 @@
   font-variation-settings:
     normal;
     align-items: center;
+    justify-content: center;
+    
     
 }
 .banner{
-    background-image: url(/Assets/Hero-bg.png);
-    background-position: center;
-    width: 1440px;
+    background-image: url(/Image/Hero-bg.png);
+    background-position: cover;
+    width: 1900px;
     height: 698px;
    
     
@@ -54,4 +56,9 @@
 .div{
     text-align: center;
     margin: 154px 300px 200px 300px;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 400px;
 }
