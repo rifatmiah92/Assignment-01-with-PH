@@ -10,7 +10,7 @@
     
 }
 .banner{
-    background-image: url(image/backround.png);
+    background-image: url("./image/backround.png");
     background-position: cover;
     padding: 0px;
     margin: 0px;
