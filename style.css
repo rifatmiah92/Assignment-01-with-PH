@@ -10,9 +10,10 @@
     
 }
 .banner{
-    background-image: url(/Image/Hero-bg.png);
+    background-image: url(image/backround.png);
     background-position: cover;
-    width: 1900px;
+    padding: 0px;
+    margin: 0px;
     height: 698px;
    
     
@@ -60,5 +61,19 @@
 .action{
     display: flex;
     justify-content: space-between;
-    margin: 100px 400px;
+    margin: 100px 300px;
+    gap: 20px;
+    align-items: center;
+}
+.main-header{
+    font-weight: bold;
+    font-size: 42px;
+}
+.peragraph{
+    font-size: 24px;
+    color: #252432;
+}
+.picture{
+    border-radius: 20px;
+
 }
