@@ -56,7 +56,7 @@
 
 .div{
     text-align: center;
-    margin: 154px 300px 200px 300px;
+    margin: 154px 200px 200px 200px;
 }
 .action{
     display: flex;
@@ -76,4 +76,38 @@
 .picture{
     border-radius: 20px;
 
+}
+.joind{
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.section-title{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 38px;
+    color: black;
+    text-align: center;
+   
+
+}
+.section-des{
+    display: flex;
+    justify-content:space-around ;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.sec-k{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+.backround-color{
+    background-color: #bdbbfa;
+
+}
+.sec-p{
+    font-size: 20px;
+    color: #282727;
+    padding-bottom: 50px;
 }
