@@ -1,3 +1,4 @@
+
 .open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -31,7 +32,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 200px;
+    margin: 0px 200px;
     
 }
 span{
