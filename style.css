@@ -15,6 +15,8 @@
     padding: 0px;
     margin: 0px;
     height: 698px;
+    padding-bottom: 100px;
+
    
     
 }
@@ -32,6 +34,9 @@
     margin: 50px 200px;
     
 }
+span{
+    color: orangered;
+}
 .button{
     background-color: #4E47FF;
     font-weight: bold;
@@ -40,11 +45,16 @@
     padding: 18px 35px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+   
+}
+.button:hover{
 
+    background-color: orangered;
 }
 .logo-font{
-    width: 800px;
-    font-size: 40px;
+    width: bold;
+    font-size: 80px;
     color: #4E47FF;
 }
 .titel {
@@ -52,6 +62,7 @@
     font-size: 65px;
     color: black;
     text-align: center;
+   
 }
 
 .div{
@@ -140,4 +151,57 @@
 }
 .profile-info{
     font-weight: bold;
+}
+footer{
+    background-color:#e2e1fd;
+    padding:50px 150px;
+    display: flex;
+    gap: 100px;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+.footer-colums{
+    width: 50%;
+}
+footer input[type="text"]{
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    background-color:white;
+    display: block;
+    border: none;
+    margin-bottom: 24px;
+    padding: 10px;
+    font-size: 25px;
+}
+.lo{
+    padding: 50px;
+}
+.go{
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    color: #4E47FF;
+}
+.classp{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #8987A1;
+}
+div ul{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+div ul li{
+    
+    list-style: none;
+}
+div ul li a{
+    text-decoration: none;
+}
+label{
+    font-size: 25px;
 }
