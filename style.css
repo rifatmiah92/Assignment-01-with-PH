@@ -1,4 +1,7 @@
 
+*{
+    margin: 0;
+}
 .open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -33,6 +36,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0px 200px;
+    padding: 50px;
     
 }
 span{
@@ -61,7 +65,7 @@ span{
 .titel {
     font-weight: bold;
     font-size: 65px;
-    color: black;
+    color:#4E47FF;
     text-align: center;
    
 }
@@ -80,10 +84,11 @@ span{
 .main-header{
     font-weight: bold;
     font-size: 42px;
+    color: #0c0c0c;
 }
 .peragraph{
     font-size: 24px;
-    color: #252432;
+    color:#8987A1;
 }
 .picture{
     border-radius: 20px;
@@ -103,6 +108,14 @@ span{
    
 
 }
+.new-font{
+    
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
+
 .section-des{
     display: flex;
     justify-content:space-around ;
@@ -153,6 +166,20 @@ span{
 .profile-info{
     font-weight: bold;
 }
+.few{
+    display: flex;
+    gap: 12px;
+
+    
+}
+.profile-pic{
+    width: 40px;
+    height: 40px;
+    margin-top: 10pxpx;
+    border-radius: 50%;
+}
+
+
 footer{
     background-color:#e2e1fd;
     padding:50px 150px;
@@ -160,8 +187,10 @@ footer{
     gap: 100px;
 }
 .footer-title{
+    padding: 100px;
     font-weight: bold;
     font-size: 50px;
+    color: #4E47FF;
 }
 .footer-colums{
     width: 50%;
